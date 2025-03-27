@@ -19,5 +19,5 @@ Los ejercicios en **JavaScript** están conectados a archivos **HTML**, permitie
      ```
 
 ## 📌 Autor
-Creado por [Sebastián Gracia](https://github.com/Sh4rKYCode).  
+Creado por [Sebas G](https://github.com/Sh4rKYCode).  
 
