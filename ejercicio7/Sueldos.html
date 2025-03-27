@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sueldo Máximo</title>
+    <link href = "https://c1.klipartz.com/pngpicture/592/861/sticker-png-payroll-green-salary-human-resource-human-resource-management-paycheck-payroll-service-bureau-wage-employee-benefits-thumbnail.png" rel = "icon"/>
+</head>
+<body>
+    <h1>En este sistema, calcularemos el sueldo máximo entre un número determinado de sueldos.</h1> <!--Este es el subtítulo-->
+   
+    <label for="c_s">Ingrese la cantidad de sueldos:</label>
+    <br>
+    <br>
+    
+    <input type="number" id="c_s" placeholder="Cantidad de sueldos" required>
+    <button id="boton" onclick="ingresar_s()">Ingresar Sueldos</button>
+
+    <!-- Div para mostrar la entrada de sueldos -->
+    <div id="divSueldos" style="display: none;">
+        <h3>Ingrese los sueldos:</h3>
+        <div id="sueldos_i"></div>
+        <button onclick="calcular_s_m()">Calcular Sueldo Máximo</button>
+    </div>
+
+    <div id="divResultado"></div><!--Aquí se crea el div donde se mostrará el resultado-->
+    
+    <script src="Sueldos.js"></script>
+</body>
+</html>

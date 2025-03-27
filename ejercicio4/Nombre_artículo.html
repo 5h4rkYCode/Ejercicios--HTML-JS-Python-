@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artículo</title> <!--Aquí se agrega el título-->
+    <link href = "https://images.freeimages.com/vhq/images/previews/0d0/cash-register-icon-119738.png?h=350" rel = "icon"/>
+</head>
+<body>
+    <h1>En este sistema, se selecciona un artículo y se le asigna un descuento denominado clave.</h1> <!--Este es el subtítulo-->
+    <p>Selecciona un artículo entre los siguientes disponibles:</p><!--Este es el párrafo-->
+
+    <p>Por favor, seleccione un artículo.</p>
+    <!--Aquí se crea una lista desplegable con los artículos-->
+    <select id = "articulo"> 
+        <option value = "1">Papas margarita $6500</option>
+        <option value = "2">Coca cola 3 litros $9500</option>
+        <option value = "3">Crema de peinar Savital $15000</option>
+        <option value = "4">Papel higiénico suave x32 $32000</option>
+        </select><!--Aquí se cierra la lista desplegable-->
+
+        
+    <p>A continuación, seleccione una clave.</p>
+    <!--Aquí se crea una lista desplegable con las claves-->
+    <select id = "clave">
+        <option value = "1">1 - 10 % de descuento</option>
+        <option value = "2">2 - 20% de descuento</option>
+    
+    </select><!--nuevamente cerramos la lista desplegable-->
+         
+    <button id = "boton">Calcular</button><!--Aquí se crea el botón-->
+    <div id = "divResultado"></div><!--Aquí se crea el div donde se mostrará el resultado-->
+
+    <script src = "Nombre_Artículo.Js"></script><!--Aquí se llama el archivo JS-->
+
+</body>
+</html>
