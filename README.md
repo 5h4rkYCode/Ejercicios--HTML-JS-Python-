@@ -21,3 +21,8 @@ Los ejercicios en **JavaScript** están conectados a archivos **HTML**, permitie
 ## 📌 Autor
 Creado por [Sebas G](https://github.com/5h4rKYCode).  
 
+## 📌 Colaboradores
+[DORIUM-pro](https://github.com/DORIUM-pro)
+[Josemr218](https://github.com/Josemr218)
+[DavidHolguin132](https://github.com/DavidHolguin132)
+[andréspipe270](https://github.com/andréspipe270)
